@@ -11,12 +11,32 @@ body {
 h1{
     font-size: 3rem;
 }
+
+.game-info{
+    /* float: ; */
+    position: absolute;
+    top: 0;
+}
+
+.game-decision{
+    margin-bottom: 10px;
+}
+
+.game-decision-button{
+    padding: 10px;
+    border: none;
+    background-color: aquamarine;
+    font-weight: bold;
+    color: black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .container{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 .square{
